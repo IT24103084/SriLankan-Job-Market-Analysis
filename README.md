@@ -2,20 +2,66 @@
 
 ## Project Overview
 
-This project analyzes the Sri Lankan job market by collecting job postings from multiple online platforms. The analysis identifies hiring trends, in-demand skills, company activity, and salary patterns while providing predictive insights through machine learning.
+This project analyzes the Sri Lankan job market by scraping job vacancies from TopJobs.lk, cleaning and processing the data, storing it in SQLite, and visualizing hiring trends using Power BI.
+
+---
 
 ## Objectives
 
-- Analyze job market trends
-- Identify most demanded skills
-- Predict salaries
-- Build an interactive dashboard
+- Collect job market data automatically
+- Clean and transform job data
+- Analyze hiring trends
+- Build an interactive Power BI dashboard
+
+---
 
 ## Technologies
 
 - Python
+- BeautifulSoup
+- Requests
 - Pandas
-- SQL
+- SQLite
 - Power BI
-- Streamlit
-- Scikit-learn
+- Git
+- GitHub
+
+---
+
+## Workflow
+
+1. Web Scraping
+2. Data Extraction
+3. Data Cleaning
+4. Database Creation
+5. Exploratory Data Analysis
+6. Power BI Dashboard
+
+---
+
+## Dashboard
+
+![dashboard](dashboard.png)
+---
+
+## Key Insights
+
+- Most jobs were located in the Western Province.
+- IT and Software categories had the highest demand.
+- Executive and Manager positions were common.
+- Most vacancies remained open for approximately two weeks.
+
+---
+
+## Future Improvements
+
+- Automate daily scraping
+- Add salary prediction
+- Perform skill extraction using NLP
+- Deploy dashboard online
+
+---
+
+## Author
+
+Nipuni Karunanayake

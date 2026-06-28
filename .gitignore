@@ -1,6 +1,13 @@
 venv/
+
 __pycache__/
-.ipynb_checkpoints/
+
 *.pyc
+
+.ipynb_checkpoints/
+
 *.db
-.env
+
+*.sqlite
+
+.DS_Store
